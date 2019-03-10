@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "478567339317",
+    "firebase_url": "https://onedayoneselfie-51706.firebaseio.com",
+    "project_id": "onedayoneselfie-51706",
+    "storage_bucket": "onedayoneselfie-51706.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478567339317:android:71aa5318765029cc",
+        "android_client_info": {
+          "package_name": "horangya.jhm.begin.onedayoneselfie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478567339317-1p9riuhqh21k4umh1epjosaq8alv85gb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "horangya.jhm.begin.onedayoneselfie",
+            "certificate_hash": "3ed9a39376218099eadec2e7452248d4b64a761e"
+          }
+        },
+        {
+          "client_id": "478567339317-p29fr85k3utv0bks2eu5u2bvir24vjjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe_PxILdD0qJ1JI5rhA-2ODN7ZSVH1sGQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478567339317-p29fr85k3utv0bks2eu5u2bvir24vjjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

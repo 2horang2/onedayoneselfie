@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/intro_snow_v2"
+    android:layout_height="match_parent"
+    tools:context=".activity.IntroActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33ffffff"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나의 기억 보관함"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorPrimary"/>
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        app:indicatorName="BallTrianglePathIndicator"
+        app:indicatorColor="@color/colorPrimary"
+    />
+
+</RelativeLayout>
